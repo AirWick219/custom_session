@@ -1,3 +1,3 @@
 CustomSession::Engine.routes.draw do
-  resource :session, only: :create
+  resource :session, only: :show
 end
